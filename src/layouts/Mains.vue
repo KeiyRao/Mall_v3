@@ -2,7 +2,7 @@
  * @Author: 饶凯平
  * @Date: 2021-03-02 22:23:55
  * @LastEditors: 饶凯平
- * @LastEditTime: 2021-03-02 23:11:17
+ * @LastEditTime: 2021-03-04 21:40:12
  * @Description: 
 -->
 <template>
@@ -20,6 +20,7 @@
       </el-dropdown>
       <span>王小虎</span>
     </el-header>
+
     <el-main>
       <router-view class="router-view" v-slot="{ Component }">
         <component :is="Component" /></router-view
